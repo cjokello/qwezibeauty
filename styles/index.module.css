@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=PT+Sans&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+.container {
+    background-color: #fffef9;
+    border: 1px solid black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fcf9ec;
+    align-items: center
+}
+
+.navbarLinks {
+    display: flex;
+    justify-content: center;
+    background-color: #fcf9ec;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black
+}
+
+.navbarLink {
+    padding: 0 1em;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    width: 5%
+}
+
+.socialicon:hover {
+    color: rgb(28, 69, 50, 0.9)
+}
+
+.main {
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: 80vh;
+    color: #FAF089;
+    border-bottom: 1px solid #1C4532;
+}
+.main_one {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C4532;
+}
+.main_two {
+    flex: 1;
+    display: flex;
+    align-items: space-around;
+    justify-content: center;
+}
+.main_image {
+    width: 70%;
+    object-fit: contain;
+}
+.maintext{
+    font-size: 3.5rem;
+    max-width: 90%;
+    color: #fffef9;
+}
+.maintext i {
+    color: #FAF089
+}
+.lineupText {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #1C4532;
+    background: #fcf9ec;
+}
+
+.productGrid {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    max-width: 1000px;
+}
+
+.productCard {
+    margin: 1rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    min-height: 55vh;
+    max-height: 70vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.product_image_div {
+    max-height: 80%;
+    min-height: 80%;
+    flex: 3;
+}
+.product_image_div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product_description{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product_description p {
+    margin: 0;
+    padding: 0;
+    font-size: smaller;
+    margin: 0.2rem 0;
+}
+
+.product_price {
+    margin: 0;
+    padding: 0;
+}
+
+.product_title {
+    letter-spacing: 0.1rem;
+    margin: 0.5rem 0 0;
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+}
+
+.product_title:hover {
+    font-style: italic;
+}
+
+.believe {
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #1C4532;
+    border-bottom: 1px solid #1C4532;
+    background: #fcf9ec;
+}
+
+.iconsGrid { 
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    max-width: 1000px;
+    padding: 4rem;
+}
+
+.icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    transition: all 0.5s;
+}
+
+.icon:hover {
+    transform: translateY(-10px);
+}
+
+.iconCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: #fcf9ec;
+    background-color:#1C4532;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-family: 'Merriweather', serif;
+}
+
+.subscribeContainer {
+    border-bottom: 1px solid #1C4532;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fcf9ec
+}
+
+.footer_section_one {
+    max-width: 900px;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    border-bottom: 1px solid #fcf9ec;
+
+}
+.footer_section_one .footerText {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.footerText i {
+    color: #FAF089
+}
+
+.subscribeBox {
+    border: none;
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+    font-family: inherit;
+    color: inherit;
+    outline: none;
+    background: transparent;
+    flex: 7
+}
+
+.subscribeBox::placeholder {
+    color: #fcf9ec
+}
+
+.subscribeIcon {
+    flex: 3;
+    color: #fcf9ec
+}
+
+.footer_section_one .email {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_section_two {
+    margin-top: 3rem;
+    border-bottom: 1px solid #fcf9ec;
+    min-width: 75%
+}
+.footer_section_two > p {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.footer_section_two p {
+    padding: 0;
+    margin: 0;
+}
+
+.contactDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contactDetails > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.footer_section_three p {
+    font-size: smaller; 
+}
+
+
+@media (min-width: 600px) {
+    .productGrid { 
+        grid-template-columns: repeat(2, 1fr); 
+        padding: 4rem;
+    }
+    .iconsGrid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .footer_section_one p {
+        font-size: 2.5rem;
+    }
+    .contactDetails{
+        flex-direction: row;
+    }
+    .main {
+        flex-direction: row;
+    }
+    .main_one {
+        justify-content: flex-end;
+    }
+    .subscribeBox{
+        flex: 8
+    }
+    .subscribeIcon {
+        flex: 2;
+    }
+}
+
+@media (min-width: 900px) {
+    .iconsGrid {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+    .footer_section_one p {
+        font-size: 3rem;
+    }
+}

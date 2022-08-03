@@ -4,6 +4,8 @@ Qwezi Beauty is a leading wellness brand in Uganda. Their products are 100% orga
 
 I challenged myself to redesign their website (a brand such as theirs ought to have a better looking website, no?)
 
+My concept for the site is inspired by this site: https://www.blackgirlinom.com/
+
 This is Qwezi Beauty's current website: https://qwezibeauty.com/
 
 This is my concept of their redesigned website: https://qwezibeauty.vercel.app/
